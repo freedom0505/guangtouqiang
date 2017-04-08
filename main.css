@@ -1,0 +1,239 @@
+@charset "utf-8";
+body{
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand {
+    color: #40D2B1;
+    font-size: 28px;
+    font-weight: 700;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.navbar-default .navbar-brand:hover {
+    color: skyblue;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: skyblue;
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+    border-color: #666;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: skyblue;
+    border-color: #666;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #40D2B1;
+}
+.navbar-toggle {
+    margin-top: 17px;
+}
+/*home*/
+#home{
+    background: url(images/home-bg.jpg) center top;
+    background-size: cover;
+    margin-top: 70px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+#home .lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    padding: 90px 0;
+}
+#home h3{
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 0;
+}
+#home p {
+    padding-top: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+#home img {
+    display: inline-block;
+    padding-top: 30px;
+}
+#bbs{
+    padding: 80px 0;
+    text-align: center;
+    color: #666;
+}
+#bbs h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+#bbs img{
+    display: inline-block;
+    padding-top: 20px;
+}
+#bbs .col-md-4:hover {
+    background: #eee;
+    cursor: pointer;
+}
+#bbs a:hover{
+    text-decoration: none;
+}
+#bbs a{
+    color: #666;
+}
+/*html5*/
+#html5{
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+#html5 h4 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.icon-mains{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background: #40d2b1;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    line-height: 30px;
+    height: 30px;
+}
+#html5 img{
+
+}
+/*Bootstrap区域*/
+#bootstrap{
+    padding: 80px 0;
+}
+#bootstrap h4{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+#bootstrap p{
+    line-height: 30px;
+}
+#kclb{
+    padding: 80px 0;
+    text-align: center;
+    background: #f8f8f8;
+}
+#kclb h4{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 40px;
+}
+#kclb .col-md-3{
+    margin-bottom: 20px;
+}
+#kclb .col-md-3 a{
+    cursor: pointer;
+}
+#kclb .col-md-3 a:hover {
+    background: #40d2b1;
+    color:#fff;
+}
+#kclb .course {
+    background: #fff;
+}
+#kclb .btn-primary {
+    color: #40d2b1;
+    background-color: #fff;
+    border-color: #40d2b1;
+    border-radius: 0;
+    margin: 20px 0;
+    padding: 6px 40px;
+    transition: all 0.3s;
+}
+
+/*我的app*/
+#myApp{
+    padding: 80px 0;
+}
+#myApp h4{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+#myApp .btn-primary {
+    color: #fff;
+    background-color: #40d2b1;
+    border-color: #40d2b1;
+    border-radius: 0;
+    margin: 20px 0;
+    padding: 6px 40px;
+    transition: all 0.3s;
+}
+#myApp .btn-primary:hover {
+    background: rgb(44, 142, 120);
+}
+#contact{
+    /*height: 600px;*/
+    width: 100%;
+    background: url(images/contact-bg.png) center top;
+    -webkit-background-size:;
+    background-size: cover;
+}
+#contact .lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    padding: 90px 0;
+    color: #fff;
+}
+#contact h5 {
+    font-size: 30px;
+    font-weight: 700;
+}
+#contact h5 i {
+    padding-right: 24px;
+}
+#contact p {
+    line-height: 26px;
+}
+#contact p i {
+    padding-right: 20px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+/*#footer区域*/
+#footer{
+    padding: 30px;
+    text-align: center;
+    font-weight: 400;
+
+}
